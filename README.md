@@ -1,39 +1,123 @@
-# retail-sales-analysis-business-report
-Retail Sales & Profitability Analysis
-Project Overview
+🛍️ Retail Sales Performance Analysis
+Data Cleaning | Exploratory Data Analysis | Business Intelligence
 
-This project demonstrates professional data cleaning and exploratory data analysis on retail sales data to uncover revenue drivers and profitability insights.
+📌 Executive Summary
 
-Objectives
+This project analyzes retail transaction data from the Sample Superstore dataset to uncover revenue drivers, profitability risks, and regional performance patterns.
 
-Clean and validate raw data
+The objective was to transform raw transactional data into actionable business insights using structured data cleaning, feature engineering, and exploratory analysis.
 
-Analyze regional and category performance
+This project demonstrates end-to-end analytical workflow suitable for real-world business environments.
 
-Evaluate profit impact of discounts
+🎯 Business Objectives
 
-Deliver business-ready insights
+Evaluate revenue and profit performance
 
-Tools Used
+Identify high-performing and underperforming categories
 
-Python (Pandas, Matplotlib, Seaborn)
+Assess impact of discount strategy on profitability
 
-Data Cleaning Techniques
+Compare regional sales performance
 
-Business-Focused EDA
+Deliver strategic, data-driven recommendations
 
-Key Insights
+📂 Dataset Overview
 
-West region generated highest revenue.
+~10,000 retail transaction records
 
-High discounts negatively impacted profitability.
+Multi-dimensional business attributes:
 
-Technology category produced strongest margins.
+Order Date
 
-Deliverables
+Sales & Profit
 
-Cleaned dataset
+Discount
 
-Visual insights
+Category & Sub-Category
 
-Business summary
+Customer Segment
+
+Geographic Region
+
+Dataset Source: Kaggle – Sample Superstore
+
+🧹 Data Preparation & Cleaning
+
+The following preprocessing steps were performed:
+
+Missing value validation
+
+Duplicate record checks
+
+Data type corrections (date conversions)
+
+Feature engineering (Year, Month extraction)
+
+Profit Margin calculation
+
+Discount impact validation
+
+Negative profit investigation
+
+The dataset integrity was confirmed prior to analysis.
+
+📊 Exploratory Data Analysis
+📈 Revenue & Growth Trends
+
+Identified revenue patterns across time
+
+Analyzed sales seasonality
+
+🏷 Category Performance
+
+Technology is the top revenue contributor
+
+Furniture category shows margin volatility
+
+Office Supplies demonstrates stable performance
+
+🌍 Regional Analysis
+
+West region generates highest revenue
+
+Central region displays lower profitability
+
+Regional discount sensitivity observed
+
+💳 Discount vs Profit Analysis
+
+High discount levels strongly correlated with negative profit
+
+Several sub-categories consistently unprofitable under aggressive discounting
+
+👥 Customer Segment Analysis
+
+Consumer segment contributes majority revenue
+
+Corporate segment shows strong profit consistency
+
+📌 Key Business Insights
+
+Excessive discounting significantly erodes profit margins.
+
+Technology category is the primary revenue engine.
+
+Certain furniture sub-categories require pricing optimization.
+
+Regional performance gaps indicate targeted strategy opportunities.
+
+Balanced discount frameworks can improve overall profitability.
+
+🛠 Tools & Technologies
+
+Python
+
+Pandas
+
+Matplotlib / Seaborn
+
+Kaggle Notebook Environment
+
+Microsoft Excel (Dashboard Version)
+
+GitHub (Version Control & Documentation)
